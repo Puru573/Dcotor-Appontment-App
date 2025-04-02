@@ -183,7 +183,7 @@ const MyCalendar = () => {
     <div>
       <ToastContainer position="top-right" autoClose={3000} />
 
-      <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white ms-0 md:ms-30 mt-15 h-[calc(100vh-10rem)] md:h-130 w-full md:w-[calc(100%-20rem)] absolute left-0 md:left-1/2 top-1/2 transform md:-translate-x-1/2 -translate-y-1/2 px-2 md:px-0">
+      <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white ms-0 md:ms-30 mt-20 h-[calc(100vh-10rem)] md:h-130 w-full md:w-[calc(100%-20rem)] absolute left-0 md:left-1/2 top-1/2 transform md:-translate-x-1/2 -translate-y-1/2 px-2 md:px-0">
         <DnDCalendar
           localizer={localizer}
           events={events}
