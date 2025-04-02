@@ -2,7 +2,7 @@
 User can book their appointment with the doctors and doctor can see their appointment with the user name,schedule of appointment and the name of the patient as well.
 
 ## Image
-![Getting Started]( images/Screenshot (114).png)
+![Alt text](images/Screenshot (114).png)
 
 ## How to install
 1.first clone my project by writing the cmd ""git-clone<project-name>""
