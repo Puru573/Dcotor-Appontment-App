@@ -11,7 +11,7 @@ import withDragAndDrop from "react-big-calendar/lib/addons/dragAndDrop";
 const DnDCalendar = withDragAndDrop(Calendar);
 
 const localizer = momentLocalizer(moment);
-
+Modal.setAppElement('#root');
 const MyCalendar = () => {
   const [events, setEvents] = useState([]);
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -23,7 +23,6 @@ const MyCalendar = () => {
   const [selectedTimeStart, setSelectedTimeStart] = useState("");
   const [selectedTimeEnd, setSelectedTimeEnd] = useState("");
   const [name, setName] = useState("");
-
   useEffect(() => {
     const eventData = [
       {
@@ -201,6 +200,9 @@ const MyCalendar = () => {
           components={{
             toolbar: CustomToolbar,
           }}
+           longPressThreshold={100} 
+           popup 
+           touchAccessible={true}
         />
       </div>
 
