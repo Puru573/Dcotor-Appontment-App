@@ -15,7 +15,7 @@ function SideNavbar(props) {
       {/* Hamburger Toggle Button - Always visible on mobile */}
       <button
         onClick={toggleNavbar}
-        className={`fixed top-5 left-5 p-2 bg-white dark:bg-gray-900 rounded-full shadow-md focus:outline-none transition-all duration-300 z-50 ${
+        className={`fixed top-5 left-5 p-2 bg-white dark:bg-gray-900 rounded-full shadow-md focus:outline-none transition-all duration-300 ${
           modalIsOpen || detailsModalIsOpen ? "z-0" : "z-50"
         } md:hidden`} // Hide on medium screens and up
       >
@@ -26,7 +26,7 @@ function SideNavbar(props) {
 
       {/* Side Navbar */}
       <aside
-        className={`bg-white dark:bg-gray-900 text-gray-900 dark:text-white fixed h-screen w-60 rounded-sm transform transition-transform duration-300 shadow-xl border-zinc-950 z-40 ${
+        className={`bg-white dark:bg-gray-900 text-gray-900 dark:text-white fixed h-screen w-60 rounded-sm transform transition-transform duration-300 shadow-xl border-zinc-950  ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0`} // Always visible on medium screens and up
       >
