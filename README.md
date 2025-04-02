@@ -1,12 +1,16 @@
-# React + Vite
+# Docotor Appointment App
+User can book their appointment with the doctors and doctor can see their appointment with the user name,schedule of appointment and the name of the patient as well.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Image
+![Getting Started]( images/Screenshot (114).png)
 
-Currently, two official plugins are available:
+## How to install
+1.first clone my project by writing the cmd ""git-clone<project-name>""
+2.After clone run npm i
+3.that'it
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## contributor expectations
+1.if you find any bug after clonne raise the pr and also mention in my read me that what bug you have resolved.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
