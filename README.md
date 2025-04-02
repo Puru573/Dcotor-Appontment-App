@@ -10,7 +10,7 @@ User can book their appointment with the doctors and doctor can see their appoin
 3.that'it
 
 ## contributor expectations
-1.if you find any bug after clonne raise the pr and also mention in my read me that what bug you have resolved.
+1.if you find any bug after clone raise the pr and also mention in my read me that what bug you have resolved.
 
 
 
