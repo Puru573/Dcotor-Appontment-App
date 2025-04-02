@@ -1,8 +1,9 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { ThemeContext } from "../Context/ThemeContext";
 
 function LandingPage() {
   const { theme, toggleTheme } = useContext(ThemeContext);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <div>
@@ -32,10 +33,12 @@ function LandingPage() {
 
           {/* Mobile: Dropdown Menu (sm screens and below) */}
           <div className="md:hidden relative group">
-            <button className="flex items-center cursor-pointer">
+            <button className="flex items-center cursor-pointer"
+             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+             >
               <span className="material-symbols-outlined">expand_more</span>
             </button>
-            <div className="absolute right-0 mt-2 w-40 bg-white dark:bg-gray-800 shadow-lg rounded-md py-1 z-10 hidden group-hover:block">
+            <div className={`absolute right-0 mt-2 w-40 bg-white dark:bg-gray-800 shadow-lg rounded-md py-1 z-10 ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
               <div className="px-4 py-2 text-xs">
                 <div>Puru pal</div>
                 <div className="text-gray-500 dark:text-gray-400">Patient</div>
