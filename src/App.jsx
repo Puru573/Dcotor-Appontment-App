@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import './App.css'
 import LandingPage from './Component/LandingPage'
-import MyCalendar from './Component/MYCalendar'
+import MyCalendar from './Component/MyCalendarr'
 import { ThemeContext, ThemeProvider } from './Context/ThemeContext'
 
 function AppContent() {
